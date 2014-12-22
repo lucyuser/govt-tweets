@@ -1,12 +1,5 @@
 var HttpClient = require('https');
 
-exports.getTweetsNearBuckinghamPalace = function(query, callback) {
-  exports.api.search ({
-    'query': query,
-    'geocode': '51.501364,-0.14189,1mi',
-  }, callback);
-}
- 
 exports.getTweetsNearWhiteHouse = function(query, callback) {
   exports.api.search ({
     'query': query,
